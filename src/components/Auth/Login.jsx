@@ -19,11 +19,18 @@ const Login = () => {
   }; 
   return (
     <div>
-     <div className="logo mb-1 flex ms-[25%] md:!ms-[40%] mt-8 text-myBlue ">
+     <div className="logo mb-1 flex ms-[25%] md:!ms-[40%] mt-8 md:mt-0 text-myBlue ">
          <FaBookOpen size={65}/>
-         <span className=' font-extrabold text-4xl mt-3 ms-2 text-center'>LearnX</span>
+         <span className=' font-extrabold text-4xl mt-3  ms-2 text-center'>LearnX</span>
         </div>
-      <div className='shadow-lg shadow-gray-500/50 ms-[1em] mb-[1em] me-[1em] mt-0 md:!mt-10  flex '>
+<div className='w-[100%] md:w-[45%] font-sans bg-teal-300 text-myBlue block ps-5 md:ms-48'>
+  <h1 className='text-lg'>Testing Email and Password:</h1>
+  <p>Admin Email: <span className='font-bold'>admin@admin.com</span></p>
+  <p>Student Email: <span className='font-bold'>student@student.com</span></p>
+  <p>Password (for both admin and student): <span className='font-bold'>12345678</span></p>
+  <p className='font-semibold'>OR Signup with your email you will get a verification code, verify your email and proceed</p>
+</div>
+      <div className='shadow-lg shadow-gray-500/50 ms-[1em] mb-[1em] me-[1em] mt-4  flex '>
         <div className="form-container md:!w-[55%] w-full rounded-tl-md rounded-bl-md">
           <p className="title">
              Sign In</p>
