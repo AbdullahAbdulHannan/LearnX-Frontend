@@ -1,0 +1,22 @@
+/* modalStyles.css */
+.custom-ok-button {
+    background-color: #4CAF50; /* Your custom color */
+    border-color: #4CAF50; /* Match border color */
+    color: white; /* Text color */
+  }
+  
+  .custom-cancel-button {
+    background-color: #f44336; /* Your custom color */
+    border-color: #f44336; /* Match border color */
+    color: white; /* Text color */
+  }
+  
+  /* Optional: Add hover effects */
+  .custom-ok-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+  }
+  
+  .custom-cancel-button:hover {
+    background-color: #e53935; /* Darker shade on hover */
+  }
+  

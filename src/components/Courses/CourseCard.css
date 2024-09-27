@@ -1,0 +1,109 @@
+/* Container for the course card */
+.course-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .course-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Content inside the card */
+  .course-card-content {
+    padding: 16px;
+  }
+  
+  /* Title of the course */
+  .course-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Description */
+  .course-card-description {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  /* Actions: buttons section */
+  .course-card-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button variations */
+  .enroll-btn, .view-details-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .add-lec-btn, .delete-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  /* Hover effects for buttons */
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn:active {
+    transform: scale(1);
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .course-card {
+      max-width: 100%;
+    }
+  
+    .course-card-title {
+      font-size: 1.3rem;
+    }
+  
+    .course-card-description {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      padding: 8px 12px;
+    }
+  }
+  
